@@ -2,11 +2,10 @@ import React from "react";
 import Suggestion from "./Suggestion";
 
 
-function Suggestions() {
+function Suggestions({activity, type, participants}) {
     return (
         <div>
-            <h1>EXCITEMENT EVERYWHERE!</h1>
-            <Suggestion/>     
+            <Suggestion activity={activity} type={type} participants={participants}/>     
         </div>
     )
 }

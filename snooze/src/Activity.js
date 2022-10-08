@@ -12,7 +12,8 @@ function Activity() {
     return(
         <div>
             < Search/>
-            <Suggestions/>
+            <Suggestions activity={data.activity} type={data.type} participants={data.participants}/>
+            <Suggestions activity={data.activity} type={data.type} participants={data.participants}/>
         </div>
     )
 }
