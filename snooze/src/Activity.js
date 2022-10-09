@@ -12,14 +12,15 @@ function Activity() {
 
     
     useEffect(() => {
+        console.log("fetching")
     types.map((type) => {
       fetch(`http://www.boredapi.com/api/activity?type=${type}`)
       .then(res => res.json())
       .then(info => {
         data.push(info)
         setData(data)
-       
-    })  
+    }) 
+    console.log("done fetching") 
     })}, []) 
 
     return(
