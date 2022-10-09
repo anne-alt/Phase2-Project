@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+}
+
+#stuff{
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    margin: 5%;
+    padding: 5%;
+    background-color: #ecb8a5;
+
+}
+
+
+nav{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+a{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+input {
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    margin-left: 1%;
+    display: flex;
+    flex: 50%;
+    float: left;
+}
+
+.choose {
+    float: left;
+    display: flex;
+    padding: 5%;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: #eccfc3;
+}
+
+
+
+

@@ -4,7 +4,7 @@ import Suggestion from "./Suggestion";
 
 function Suggestions({activity, type, participants}) {
     return (
-        <div>
+        <div id="stuff">
             <Suggestion activity={activity} type={type} participants={participants}/>     
         </div>
     )

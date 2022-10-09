@@ -3,13 +3,13 @@ import React from "react";
 function Navbar() {
     return(
         <nav>
-      <a href="#home">Home</a>
+          <a href="#home">Home</a>
 
-      <a href="#Search">Search</a>
+          <a href="#Search">Search</a>
 
-      <a href="#Options">Options</a>
+          <a href="#Options">Options</a>
 
-    </nav>
+       </nav>
 
     )
 }
