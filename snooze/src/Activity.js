@@ -8,16 +8,26 @@ function Activity() {
     const[data, setData] = useState([])
     const[search, setSearch] = useState("")
 
-    useEffect(() => {fetch('http://www.boredapi.com/api/activity?type') 
-    .then(res => res.json())
-    .then(info => setData(info))}, []) 
+    const types = ['education', 'recreational', 'social', 'music', 'cooking', 'diy', 'relaxation']
+
+    
+    useEffect(() => {
+    types.map((type) => {
+      fetch(`http://www.boredapi.com/api/activity?type=${type}`)
+      .then(res => res.json())
+      .then(info => {
+        data.push(info)
+        setData(data)
+       
+    })  
+    })}, []) 
 
     return(
         <div>
             <Navbar/>
             < Search search={search} setSearch={setSearch}/>
             <Options/>
-            <Suggestions activity={data.activity} type={data.type} participants={data.participants}/>
+            <Suggestions data={data}/>
         </div>
     )
 }

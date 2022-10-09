@@ -3,6 +3,7 @@ import React from "react";
 
 
 function Options() {
+
     return(
         <div className="choose">
             <select>
