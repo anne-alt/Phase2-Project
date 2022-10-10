@@ -1,34 +1,21 @@
 import React, {useState, useEffect} from "react";
 import Navbar from "./Navbar";
-import Search from "./Search";
-import Suggestions from "./Suggestions";
-import Options from "./Options";
+import Jokes from "./Jokes";
 
 function Activity() {
     const[data, setData] = useState([])
-    const[search, setSearch] = useState("")
-
-    const types = ['education', 'recreational', 'social', 'music', 'cooking', 'diy', 'relaxation']
-
-    
+  
     useEffect(() => {
-        console.log("fetching")
-    types.map((type) => {
-      fetch(`http://www.boredapi.com/api/activity?type=${type}`)
+      fetch('http://localhost:3000/jokes')
       .then(res => res.json())
-      .then(info => {
-        data.push(info)
-        setData(data)
-    }) 
-    console.log("done fetching") 
-    })}, []) 
+      .then(info => setData(info))
+    }, []) 
 
     return(
         <div>
             <Navbar/>
-            < Search search={search} setSearch={setSearch}/>
-            <Options/>
-            <Suggestions data={data}/>
+            <Jokes data={data}/>   
+           
         </div>
     )
 }
