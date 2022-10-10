@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import About from "./About";
 
 function Form({data, setData}) {
 
@@ -27,27 +28,31 @@ function Form({data, setData}) {
 
     return (
         <div className="forms" >
+            <About/>
         <form onSubmit={HandleSubmit}>
               <h2>Show me what you got!</h2>
               <input
                 placeholder="say something.."
+                className="input"
                 name="setup"
                 type="text"
                 value={setup}
                 onChange={(event) => setSetUp(event.target.value)}/>
               <input
                 placeholder="hit it!"
+                className="input"
                 name="delivery"
                 type="text"
                 value={delivery}
                 onChange={(event) => setDelivery(event.target.value)}/>
               <input
                 placeholder="Pun, Christmas, Dark, Programming, Misc"
+                className="input"
                 name="category"
                 type="text"
                 value={category}
                 onChange={(event) => setCategory(event.target.value)}/>  
-            <button type="submit" className="formz">Pun it!</button>
+            <button type="submit" className="input" id="formbutton">Pun it!</button>
         </form>
         </div>
     )

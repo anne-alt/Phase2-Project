@@ -14,18 +14,24 @@ nav{
 a{
     margin-left: 10px;
     margin-right: 20px;
+    text-decoration: none;
+    color: #d27e47;
 }
 
-input {
-    /* margin-top: 5%;
-    margin-bottom: 2.5%;
-    margin-left: 1%; */
-    margin-left: 5%;
-    margin-bottom: 2%;
-    padding: 1%;
+a:hover{
+    color: #6f3b19;
+}
+
+a:active {
+    color: #ff4000;
+}
+
+.input {
+    margin: 3%;
+    padding: 3%;
     display: inline-block;
     width: 50%;
-    float: left;
+    border-radius: 20px;
 }
 
 
@@ -36,15 +42,14 @@ body {
 
 .forms {
     border: 1px solid black;
-    padding-bottom: 7%;
+    float: left;
+    width: 50%;
+    background-color: #ecb8a5;
+    text-align: center;
 }
 
-.formz {
-    width: 25%;
-    margin-top: 6%;
-    margin-right: 3%;
-    margin-bottom: 4%;
-    margin-left: 3%;
+#formbutton {
+    background-color: #ed8761;
 }
 
 h2 {
@@ -54,18 +59,31 @@ h2 {
 
 .eachJoke {
     width: 50%;
-    margin: 1rem;
+    margin: 3%;
     border: 5px hidden black;
     border-radius: 20px;
     box-shadow: 6px 6px 6px 6px rgba(0,0,0,0.5);
     flex: 40%;
-    flex-wrap: wrap;
-    padding: 1%;
+    padding: 5%;
 }
 
 .jokescontainer {
     display: flex;
     flex-wrap: wrap;
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+
+#about {
+    border: 1px solid black;
+    padding-bottom: 5%;
+    /* float: left;
+    width: 50%;
+    background-color: #ecb8a5;
+    text-align: center;
+    margin-bottom: 5%; */
+
 }
 
 
