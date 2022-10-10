@@ -26,30 +26,30 @@ function Form({data, setData}) {
     }
 
     return (
+        <div className="forms" >
         <form onSubmit={HandleSubmit}>
-            <div>
-            <h2>Show me what you got!</h2>
-            <input
-            placeholder="say something.."
-            name="setup"
-            type="text"
-            value={setup}
-            onChange={(event) => setSetUp(event.target.value)}/>
-            <input
-            placeholder="hit it!"
-            name="delivery"
-            type="text"
-            value={delivery}
-            onChange={(event) => setDelivery(event.target.value)}/>
-            <input
-            placeholder="Pun, Christmas, Dark, Programming, Misc"
-            name="category"
-            type="text"
-            value={category}
-            onChange={(event) => setCategory(event.target.value)}/>
-            </div>   
-            <button type="submit">Pun it!</button>
+              <h2>Show me what you got!</h2>
+              <input
+                placeholder="say something.."
+                name="setup"
+                type="text"
+                value={setup}
+                onChange={(event) => setSetUp(event.target.value)}/>
+              <input
+                placeholder="hit it!"
+                name="delivery"
+                type="text"
+                value={delivery}
+                onChange={(event) => setDelivery(event.target.value)}/>
+              <input
+                placeholder="Pun, Christmas, Dark, Programming, Misc"
+                name="category"
+                type="text"
+                value={category}
+                onChange={(event) => setCategory(event.target.value)}/>  
+            <button type="submit" className="formz">Pun it!</button>
         </form>
+        </div>
     )
 }
 

@@ -12,7 +12,9 @@ function Variety({data, setData}) {
         if (item.category === "Pun") {
             (puns.push(item))
         }
-        setData(puns.map((item) => <Joke key={item.id} setup={item.setup} delivery={item.delivery} category={item.category}/>))
+        const punts =(puns.map((item) => <Joke key={item.id} setup={item.setup} delivery={item.delivery} category={item.category}/>))
+        setData(punts)
+        return (punts)
     })
     
     const Chritsmas = data.filter((item) => {
@@ -20,7 +22,9 @@ function Variety({data, setData}) {
         if (item.category === "Christmas") {
             Chris.push(item)
         }
-        setData(Chris.map((item) => <Joke setup={item.setup} delivery={item.delivery} category={item.category}/>))
+        const Chrix = (Chris.map((item) => <Joke setup={item.setup} delivery={item.delivery} category={item.category}/>))
+        setData(Chrix)
+        return (Chrix)
     })
     
     const Dark = data.filter((item) => {
@@ -28,7 +32,9 @@ function Variety({data, setData}) {
         if (item.category === "Dark") {
             dark.push(item)
         }
-        setData(dark.map((item) => <Joke setup={item.setup} delivery={item.delivery} category={item.category}/>))
+        const darks = (dark.map((item) => <Joke setup={item.setup} delivery={item.delivery} category={item.category}/>))
+        setData(darks)
+        return(darks)
     })
     
     const Misc = data.filter((item) => {
@@ -36,7 +42,9 @@ function Variety({data, setData}) {
         if (item.category === "Misc") {
             misc.push(item)
         }
-        setData(misc.map((item) => <Joke setup={item.setup} delivery={item.delivery} category={item.category}/>))
+        const miscs = (misc.map((item) => <Joke setup={item.setup} delivery={item.delivery} category={item.category}/>))
+        setData(miscs)
+        return (miscs)
     })
     
     const Programming = data.filter((item) => {
@@ -44,7 +52,9 @@ function Variety({data, setData}) {
         if (item.category === "Programming") {
             programming.push(item)
         }
-        setData(programming.map((item) => <Joke setup={item.setup} delivery={item.delivery} category={item.category}/>))
+        const programs = (programming.map((item) => <Joke setup={item.setup} delivery={item.delivery} category={item.category}/>))
+        setData(programs)
+        return(programs)
     })
     
 

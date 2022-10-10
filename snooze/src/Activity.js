@@ -16,9 +16,9 @@ function Activity() {
     return(
         <div>
             <Navbar/>
+            <Form/>
             <Jokes data={data}/>  
             {/* <Variety data={data} setData/>  */}
-            <Form/>
         </div>
     )
 }
