@@ -3,9 +3,9 @@ import Joke from "./Joke";
 
 
 function Jokes({data}) {
-    // const someJokes=data.splice(5,15)
+    const someJokes=data.slice(0,5)
 
-    const postJokes= data.map((item => <Joke key={item.id} setup={item.setup} delivery={item.delivery} category={item.category}/>))
+    const postJokes= someJokes.map((item => <Joke key={item.id} setup={item.setup} delivery={item.delivery} category={item.category}/>))
 
     return (
         <div>

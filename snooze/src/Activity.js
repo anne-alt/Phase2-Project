@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from "react";
 import Navbar from "./Navbar";
 import Jokes from "./Jokes";
+import Form from "./Form";
+import Variety from "./Variety";
 
 function Activity() {
     const[data, setData] = useState([])
@@ -14,8 +16,9 @@ function Activity() {
     return(
         <div>
             <Navbar/>
-            <Jokes data={data}/>   
-           
+            <Jokes data={data}/>  
+            {/* <Variety data={data} setData/>  */}
+            <Form/>
         </div>
     )
 }
