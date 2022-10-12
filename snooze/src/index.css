@@ -9,17 +9,18 @@ nav{
     border-bottom: 2px solid black;
     margin-bottom: 1%;
     padding-bottom: 1%;
+    font-size: large;
 }
 
 a{
     margin-left: 10px;
     margin-right: 20px;
-    text-decoration: none;
-    color: #d27e47;
+    text-decoration: underline;
+    color: #6f3b19 ;
 }
 
 a:hover{
-    color: #6f3b19;
+    color: #d27e47;
 }
 
 a:active {
@@ -46,6 +47,7 @@ body {
     width: 50%;
     background-color: #ecb8a5;
     text-align: center;
+
 }
 
 #formbutton {
@@ -55,6 +57,8 @@ body {
 h2 {
     text-align: center;
     text-decoration: underline;
+    padding-top: 10%;
+
 }
 
 .eachJoke {
@@ -76,15 +80,13 @@ h2 {
 }
 
 #about {
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    box-shadow: 0px 6px 6px 6px rgba(0,0,0,0.5);
     padding-bottom: 5%;
-    /* float: left;
-    width: 50%;
     background-color: #ecb8a5;
-    text-align: center;
-    margin-bottom: 5%; */
-
+   
 }
+
 
 
 
