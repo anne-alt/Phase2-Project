@@ -5,7 +5,7 @@ function Joke({setup, delivery, category}) {
         <div className="eachJoke">
             <p>{setup}</p>
             <p>{delivery}</p>
-            <button>{category}</button>
+            <button className="jokes">{category}</button>
         </div>
     )
 }

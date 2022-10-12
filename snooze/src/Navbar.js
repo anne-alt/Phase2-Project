@@ -5,9 +5,9 @@ function Navbar() {
         <nav>
           <a href="#home">Home</a>
 
-          <a href="#Search">Search</a>
+          <a href="#Contribute">Contribute</a>
 
-          <a href="#Options">Options</a>
+          <a href="#Variety">Variety</a>
 
        </nav>
 
