@@ -1,13 +1,29 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
     return(
         <nav>
-          <a href="#home">Home</a>
+          <NavLink
+          to={"/"}
+          activeStyle={{color: "orange"}}
+          >
+            Home
+          </NavLink>
 
-          <a href="#Contribute">Contribute</a>
+          <NavLink
+          to={"/Contribute"}
+          activeStyle={{color: "orange"}}
+          >
+            Contribute
+          </NavLink>
 
-          <a href="#Variety">Variety</a>
+          <NavLink
+          to={"/Variety"}
+          activeStyle={{color: "orange"}}
+          >
+            Variety
+          </NavLink>
 
        </nav>
 

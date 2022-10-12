@@ -1,9 +1,8 @@
 import React, {useState, useEffect} from "react";
-import Everything from "./Everything";
-// import Joke from "./Joke";
+import Form from "./Form";
+import Jokes from "./Jokes";
 
-
-function Variety() {
+function Home() {
 
     const[data, setData] = useState([])
   
@@ -16,10 +15,11 @@ function Variety() {
 
     return(
         <div>
-            <Everything data={data}/>
+            <Form/>
+            <Jokes data={data}/>
         </div>
 
     )
 }
 
-export default Variety;
+export default Home;
