@@ -1,19 +1,364 @@
 {
-  "posts": [
+  "jokes": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "category": "Pun",
+      "type": "twopart",
+      "setup": "Why does the size of the snack not matter to a giraffe?",
+      "delivery": "Because even a little bit goes a long way.",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "safe": true,
+      "id": 290,
+      "lang": "en"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "category": "Christmas",
+      "type": "twopart",
+      "setup": "What's Santa's favourite type of music?",
+      "delivery": "Wrap!",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "id": 247,
+      "safe": true,
+      "lang": "en"
+    },
+    {
+      "category": "Programming",
+      "type": "twopart",
+      "setup": "What do you call a group of 8 Hobbits?",
+      "delivery": "A Hobbyte.",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "id": 29,
+      "safe": true,
+      "lang": "en"
+    },
+    {
+      "category": "Misc",
+      "type": "twopart",
+      "setup": "What do you use to blindfold an Asian?",
+      "delivery": "Floss.",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": true,
+        "sexist": false,
+        "explicit": true
+      },
+      "id": 129,
+      "safe": false,
+      "lang": "en"
+    },
+    {
+      "category": "Pun",
+      "type": "twopart",
+      "setup": "I just got fired from my job at the keyboard factory.",
+      "delivery": "They told me I wasn't putting in enough shifts.",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "safe": true,
+      "id": 302,
+      "lang": "en"
+    },
+    {
+      "category": "Dark",
+      "type": "twopart",
+      "setup": "What's the difference between a little girl and a fridge?",
+      "delivery": "Fridges don't scream when you put your meat in them.",
+      "flags": {
+        "nsfw": true,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": true
+      },
+      "id": 122,
+      "safe": false,
+      "lang": "en"
+    },
+    {
+      "category": "Misc",
+      "type": "twopart",
+      "setup": "What is the difference between an oral thermometer and a rectal thermometer?",
+      "delivery": "The taste.",
+      "flags": {
+        "nsfw": true,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": true
+      },
+      "id": 175,
+      "safe": false,
+      "lang": "en"
+    },
+    {
+      "category": "Misc",
+      "type": "twopart",
+      "setup": "What's the difference between a school bus and a cactus?",
+      "delivery": "A cactus keeps the little pricks on the outside.",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": true
+      },
+      "id": 188,
+      "safe": false,
+      "lang": "en"
+    },
+    {
+      "category": "Pun",
+      "type": "twopart",
+      "setup": "Why shouldn't you visit an expensive wig shop?",
+      "delivery": "It's too high a price \"toupee.\"",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "safe": true,
+      "id": 268,
+      "lang": "en"
+    },
+    {
+      "category": "Programming",
+      "type": "single",
+      "joke": "A man is smoking a cigarette and blowing smoke rings into the air. His girlfriend becomes irritated with the smoke and says \"Can't you see the warning on the cigarette pack? Smoking is hazardous to your health!\" to which the man replies, \"I am a programmer.  We don't worry about warnings; we only worry about errors.\"",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "id": 38,
+      "safe": true,
+      "lang": "en"
+    },
+    {
+      "category": "Pun",
+      "type": "twopart",
+      "setup": "A grocery store cashier asked if I would like my milk in a bag.",
+      "delivery": "I told her \"No, thanks. The carton works fine\".",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "id": 171,
+      "safe": true,
+      "lang": "en"
+    },
+    {
+      "category": "Programming",
+      "type": "single",
+      "joke": "There are only 10 kinds of people in this world: those who know binary and those who don't.",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "id": 35,
+      "safe": true,
+      "lang": "en"
+    },
+    {
+      "category": "Pun",
+      "type": "twopart",
+      "setup": "Which is faster, Hot or cold?",
+      "delivery": "Hot, because you can catch a cold",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "safe": true,
+      "id": 279,
+      "lang": "en"
+    },
+    {
+      "category": "Pun",
+      "type": "twopart",
+      "setup": "Thank you student loans for getting me through college.",
+      "delivery": "I don't think I'll ever be able to repay you.",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "id": 59,
+      "safe": true,
+      "lang": "en"
+    },
+    {
+      "category": "Programming",
+      "type": "twopart",
+      "setup": "Why do Java programmers hate communism?",
+      "delivery": "They don't want to live in a classless society.",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "id": 53,
+      "safe": true,
+      "lang": "en"
+    },
+    {
+      "category": "Programming",
+      "type": "single",
+      "joke": "I've got a really good UDP joke to tell you but I don’t know if you'll get it.",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "id": 0,
+      "safe": true,
+      "lang": "en"
+    },
+    {
+      "category": "Misc",
+      "type": "twopart",
+      "setup": "What's the difference between a school bus and a cactus?",
+      "delivery": "A cactus keeps the little pricks on the outside.",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": true
+      },
+      "id": 188,
+      "safe": false,
+      "lang": "en"
+    },
+    {
+      "category": "Programming",
+      "type": "single",
+      "joke": "\"Knock, knock.\"\n\"Who's there?\"\n\n[very long pause]\n\n\"Java.\"",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "id": 36,
+      "safe": true,
+      "lang": "en"
+    },
+    {
+      "category": "Misc",
+      "type": "twopart",
+      "setup": "What's the difference between a gay guy and a refrigerator?",
+      "delivery": "A refrigerator doesn't fart when I pull my meat out of it.",
+      "flags": {
+        "nsfw": true,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": true
+      },
+      "id": 163,
+      "safe": false,
+      "lang": "en"
+    },
+    {
+      "category": "Pun",
+      "type": "twopart",
+      "setup": "The gas Argon walks into a bar.\nThe barkeeper says \"What would you like to drink?\"",
+      "delivery": "But Argon doesn't react.",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "id": 148,
+      "safe": true,
+      "lang": "en"
+    },
+    {
+      "setup": "12345",
+      "delivery": "6789",
+      "category": "Pun",
+      "id": 303
+    },
+    {
+      "setup": "12345",
+      "delivery": "6789",
+      "category": "Pun",
+      "id": 304
+    },
+    {
+      "setup": "",
+      "delivery": "",
+      "category": "",
+      "id": 305
+    },
+    {
+      "setup": "stuff",
+      "delivery": "more stuff",
+      "category": "Christmas",
+      "id": 306
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
